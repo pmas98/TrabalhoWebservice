@@ -4,7 +4,7 @@ Este é o projeto da AV3 da disciplina de Arquitetura de Sistemas, consistindo e
 
 Para executar esta API, siga estas etapas:
 
-1. Clone o repositório para a sua máquina.
+1. Clone o repositório para a sua máquina e verifique se uma versão Python 3+ está instalada.
 2. Instale as dependências necessárias executando `pip install -r requirements.txt` na pasta do projeto.
 3. Execute as migrações do banco de dados com `python manage.py migrate`.
 4. Inicie o servidor com `python manage.py runserver`.
