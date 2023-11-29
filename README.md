@@ -11,7 +11,11 @@ Para rodar a API , siga essas etapas:
 
 Rotas disponíveis:
   GetAllItems(Devolve todos as tarefas) - GET - http://127.0.0.1:8000/tasks/
+  
   CreateTask(Cria uma nova tarefa) - POST - http://127.0.0.1:8000/tasks/create
+  
   GetSingleItem(Devolve uma tarefa a partir do Id) - POST - http://127.0.0.1:8000/tasks/<int>pk>
+  
   UpdateTask(Atualiza uma tarefa a partir do id) - PATCH - http://127.0.0.1:8000/tasks/<int>pk>/update/
+  
   DeleteTask(Deleta uma tarefa a partir do id) - POST - http://127.0.0.1:8000/tasks/<int>pk>/delete/
