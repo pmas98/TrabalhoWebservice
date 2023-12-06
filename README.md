@@ -16,7 +16,7 @@ Rotas disponíveis:
   
 - **CreateTask**: Cria uma nova tarefa - Método: POST - URL: http://127.0.0.1:8000/tasks/create
   
-- **GetSingleItem**: Retorna uma tarefa com base no ID - Método: POST - URL: http://127.0.0.1:8000/tasks/<int:pk>
+- **GetSingleItem**: Retorna uma tarefa com base no ID - Método: GET - URL: http://127.0.0.1:8000/tasks/<int:pk>
   
 - **UpdateTask**: Atualiza uma tarefa com base no ID - Método: PATCH - URL: http://127.0.0.1:8000/tasks/<int:pk>/update/
   
