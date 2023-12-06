@@ -20,4 +20,4 @@ Rotas disponíveis:
   
 - **UpdateTask**: Atualiza uma tarefa com base no ID - Método: PATCH - URL: http://127.0.0.1:8000/tasks/<int:pk>/update/
   
-- **DeleteTask**: Deleta uma tarefa com base no ID - Método: POST - URL: http://127.0.0.1:8000/tasks/<int:pk>/delete/
+- **DeleteTask**: Deleta uma tarefa com base no ID - Método: DELETE - URL: http://127.0.0.1:8000/tasks/<int:pk>/delete/
