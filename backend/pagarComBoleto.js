@@ -16,4 +16,4 @@ async function pagarComBoleto(pk) {
 }
 
 
-pagarComBoleto(123);
+pagarComBoleto(2);
